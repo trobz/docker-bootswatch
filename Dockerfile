@@ -18,5 +18,6 @@ ADD scripts/start/99_bootswatch.sh /usr/local/docker/start/init/99_bootswatch.sh
 ADD scripts/start/run.sh /usr/local/docker/start/run.sh
 
 EXPOSE 3000
+EXPOSE 35729
 VOLUME ["/opt/bootswatch/workspace"]
 ENTRYPOINT ["/usr/local/docker/start/main.sh"]
