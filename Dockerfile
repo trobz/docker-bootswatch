@@ -19,5 +19,4 @@ ADD scripts/start/run.sh /usr/local/docker/start/run.sh
 
 EXPOSE 3000
 VOLUME ["/opt/bootswatch/workspace"]
-CMD ["server"]
 ENTRYPOINT ["/usr/local/docker/start/main.sh"]
